@@ -34,7 +34,7 @@ export function Display(props) {
     useEffect (() => {
         if (props.resa.mainImage.length > 0)
     {    
-        setPath ((require("../../image/picture/" + props.resa.mainImage)))
+        setPath ((require(`${_dirname}/../../image/pictures/` + props.resa.mainImage)))
     }
 
     }, [props.resa.mainImage])  

@@ -19,23 +19,23 @@ export function ReservationInfo(props) {
     useEffect (() => {
         if (info.resa.mainImage.length > 0)
     {    
-        setPathMainImage ((require("../image/pictures/" + info.resa.mainImage)))
+        setPathMainImage ((require(`${_dirname}/../image/pictures/` + info.resa.mainImage)))
     }
     if (info.resa.image1.length > 0)
     {    
-        setPathImage1 ((require("../image/pictures/" + info.resa.image1)))
+        setPathImage1 ((require(`${_dirname}/../image/pictures/` + info.resa.image1)))
     }
     if (info.resa.image2.length > 0)
     {    
-        setPathImage2 ((require("../image/pictures/" + info.resa.image2)))
+        setPathImage2 ((require(`${_dirname}/../image/pictures/` + info.resa.image2)))
     }
     if (info.resa.image3.length > 0)
     {    
-        setPathImage3 ((require("../image/pictures/" + info.resa.image3)))
+        setPathImage3 ((require(`${_dirname}/../image/pictures/` + info.resa.image3)))
     }
     if (info.resa.video.length > 0)
     {    
-        setPathVideo ((require("../image/pictures/" + info.resa.video)))
+        setPathVideo ((require(`${_dirname}/../image/pictures/` + info.resa.video)))
     }
 
     }, [info.resa.mainImage])
