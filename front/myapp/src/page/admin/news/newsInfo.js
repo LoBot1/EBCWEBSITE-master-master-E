@@ -87,7 +87,7 @@ export default function NewsInfo(props) {
                 <div className="info3"><p>Image</p>
                 <input placeholder="Image" type="file" id="img" onChange={changeImg} defaultValue={img} />
                 {props.newss.img.length > 0 &&
-                <img src={require(`${_dirname}/../../image/pictures/` + props.newss.img)}></img>
+                <img src={require(`${__dirname}/../../image/pictures/` + props.newss.img)}></img>
                 }
                 </div>
             </div>

@@ -176,35 +176,35 @@ export default function ReservationInfo(props) {
                 <div className="info3"><p>Image Pricipale</p>
                 <input placeholder="Image Pricipale" type="file" id="mainImage" onChange={changeMainImage} defaultValue={mainImage} /> 
                 {props.reservation.mainImage.length > 0 &&
-                <img src={require(`${_dirname}/../../../image/pictures/`+ props.reservation.mainImage)}></img>
+                <img src={require(`${__dirname}/../../../image/pictures/`+ props.reservation.mainImage)}></img>
                 }
                 </div>
 
                 <div className="info3"><p>Image1</p>
                 <input placeholder="Image1" type="file" id="image1" onChange={changeImage1} defaultValue={image1} />
                 {props.reservation.image1.length > 0 &&
-                <img src={require(`${_dirname}/../../../image/pictures/`+ props.reservation.image1)}></img>
+                <img src={require(`${__dirname}/../../../image/pictures/`+ props.reservation.image1)}></img>
                 }
                 </div>
 
                 <div className="info3"><p>Image2</p>
                 <input placeholder="Image2" type="file" id="image2" onChange={changeImage2} defaultValue={image2} />
                 {props.reservation.image2.length > 0 &&
-                <img src={require(`${_dirname}/../../../image/pictures/` + props.reservation.image2)}></img>
+                <img src={require(`${__dirname}/../../../image/pictures/` + props.reservation.image2)}></img>
                 }
                 </div>
 
                 <div className="info3"><p>Image3</p>
                 <input placeholder="Image3" type="file" id="image3" onChange={changeImage3} defaultValue={image3} />
                 {props.reservation.image3.length > 0 &&
-                <img src={require(`${_dirname}/../../../image/pictures/` + props.reservation.image3)}></img>
+                <img src={require(`${__dirname}/../../../image/pictures/` + props.reservation.image3)}></img>
                 }
                 </div>
                 <div className="info3"><p>Video</p>
                 <input placeholder="Video" type="file" id="vide" onChange={changeVideo} defaultValue={video} />
                 {console.log(props.reservation.video)}
                 {props.reservation.video.length > 0 &&
-                <img src={require(`${_dirname}/../../../image/pictures/` + props.reservation.video)}></img>
+                <img src={require(`${__dirname}/../../../image/pictures/` + props.reservation.video)}></img>
                 }
                 </div>
                
