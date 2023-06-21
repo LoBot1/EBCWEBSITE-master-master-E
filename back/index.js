@@ -9,14 +9,31 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const { Sequelize } = require('sequelize');
 var fs = require('fs');
+require("dotenv").config()
+
+// // pour requête sql
+// const mysql = require('mysql');
+// const con = mysql.createConnection({ host: process.env.HOST, user: process.env.USER, password: process.env.PASSWORD, database: process.env.DATABASE });
+
+// //pour requête sequelize
+// const sequelize = new Sequelize(process.env.DATABASE, process.env.USER, process.env.PASSWORD, {
+//   host: process.env.HOST,
+//   dialect: 'mysql' /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+// });
+// try {
+//   sequelize.authenticate();
+//   console.log('Connection has been established successfully.');
+// } catch (error) {
+//   console.error('Unable to connect to the database:', error);
+// }
 
 // pour requête sql
 const mysql = require('mysql');
 const con = mysql.createConnection({ host: "localhost", user: "root", password: "root", database: "basket_bdd" });
 
 //pour requête sequelize
-const sequelize = new Sequelize('basket_bdd', 'root', 'root', {
-  host: 'localhost',
+const sequelize = new Sequelize("basket_bdd", "root", "root", {
+  host: "localhost",
   dialect: 'mysql' /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
 });
 try {
@@ -25,6 +42,7 @@ try {
 } catch (error) {
   console.error('Unable to connect to the database:', error);
 }
+
 
 app.get("/", function (req, res) {
   res.send("Hello World!");
@@ -608,3 +626,4 @@ app.post("/delete/file/:file", jsonParser,   (req, res) => {
   fs.unlinkSync("../front/myapp/src/image/pictures/" + fileToDelete)
   res.send('file removed');
 });
+
