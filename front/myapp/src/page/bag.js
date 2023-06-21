@@ -132,7 +132,7 @@ export function Bag(props) {
                     <div className="baginfo">
                         <div className="ptG">
                             <div className="G">
-                                <img src={(require(`${__dirname}/../../image/pictures/` + bag.mainImage))}></img>
+                                <img src={(require(`${process.cwd()}/src/image/pictures/` + bag.mainImage))}></img>
                             </div>
                             <div className="D">
                                 <p value="place" className="t1">Stage de {bag.place}</p>
