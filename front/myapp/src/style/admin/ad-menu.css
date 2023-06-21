@@ -1,0 +1,71 @@
+.btn-menuad{
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    padding-top: 50px;
+}
+
+
+
+
+.btn-menuad a.btn-4:hover{
+    color: white!important;
+}
+
+.btn-menuad a.btn-4 svg{
+   padding-right: 12px;
+
+}
+
+.resaadd header{
+    flex-direction: column;
+    display: flex;
+}
+.resaadd header{
+    
+    background-color: transparent;
+} 
+.Naazvbar button.nav-btn{
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+ .btnadmenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    width: 27vh;
+}
+.btnadmenu a{
+    color: white;
+    font-weight: 200;
+    margin: 10px;
+
+}
+a.btn-4{
+    margin-left: 0;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.btn-4 svg{
+    margin-right: 10px;
+    padding: 5px;
+}
+@media only screen and (max-width: 1155px){
+    .btnadmenu{
+        left: 40%;
+        background-color: transparent;
+        top: 20%;
+    }
+    .nav-btn{
+        top: 10px;
+    }
+    input#research{
+        top: 8vh;
+    }
+}

@@ -1,0 +1,144 @@
+/* / BTN / */
+
+/* / BTN-1 / */
+
+.btn-1 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 35px;
+    transition: 0.35s;
+    border: 1px solid white;
+}
+
+.btn-1 a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.35s;
+}
+.btn-1 {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 35px;
+    transition: 0.35s;
+}
+
+.btn-1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.35s;
+
+    font-size: 15px;
+}
+/* / BTN-2 / */
+
+.btn-2 a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    transition: 0.25s;
+}
+
+.btn-2 a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+}
+.btn-2  {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    transition: 0.25s;
+}
+
+.btn-2:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+}
+
+/* / BTN-3 / */
+.btn-3  {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 52% 34% 13% 56% / 49% 71% 25% 25%;
+    transition: 0.35s;
+}
+
+.btn-3 :hover {
+    transition: 0.35s;
+    border-radius: 67% 10% 22% 59% / 21% 15% 85% 56%;
+    box-shadow: 0px 0px 60px 20px white;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-3 a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 52% 34% 13% 56% / 49% 71% 25% 25%;
+    transition: 0.35s;
+}
+
+.btn-3 a:hover {
+    transition: 0.35s;
+    border-radius: 67% 10% 22% 59% / 21% 15% 85% 56%;
+    box-shadow: 0px 0px 60px 20px white;
+    border: 2px solid white;
+    color: white;
+}
+
+
+/* / BTN-4 / */
+a.btn-4 {
+    border: 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 2rem;
+    padding: 5px;
+    transition: 1s;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgb(197, 197, 197), rgb(197, 197, 197)) no-repeat top left  / 0 var(--bg-h);
+    transition: background-size 0.35s ;
+    --bg-h: 5%;
+    padding-bottom: 2px;
+    --bg-h: 100%;
+    padding-top: 0px;
+}
+
+a.btn-4:where(:hover, :focus-visible) {
+    background-size: 2% var(--bg-h);
+    background-position-x: left;
+    position: relative;
+    z-index: 10;
+    color: black;
+}
+.btn-4 {
+    border: 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 2rem;
+    padding: 5px;
+    transition: 1s;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(6, 6, 6)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 0.35s;
+    --bg-h: 100%;
+    padding-bottom: 2px;
+    --bg-h: 2px;
+    padding-top: 0px;
+}
+
+.btn-4:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+    position: relative;
+    z-index: 10;
+}
+
+

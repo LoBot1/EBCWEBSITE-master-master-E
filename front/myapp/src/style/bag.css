@@ -1,0 +1,195 @@
+.all-containbag {
+    min-height: 100vh;
+    background: white;
+
+}
+.all-containbag header{
+    position: relative;
+}
+.all-containbag h1 {
+    color: black;
+    height: 40px;
+    margin-right: 97vh;
+}
+
+.checkbag input#trash {
+
+    display: none;
+}
+
+.all-containbag header {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.all-containbag p {
+    color: black;
+}
+
+.bagmap {
+    padding-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baginfo {
+    display: flex;
+    margin-bottom: 20vh;
+    position: relative;
+}
+
+.containbag .ptD {
+    width: 50%;
+}
+
+.all-containbag .ptD h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.all-containbag .ptD h3 {
+    /* margin-top: 20px; */
+    font-size: 15px;
+}
+
+.all-containbag .ptD p {
+    margin-top: 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.all-containbag .ptD p.p2 {
+    color: green;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 1rem;
+    border-bottom: 1px solid;
+}
+
+.all-containbag .ptD form {
+    margin-bottom: 70px;
+}
+
+.MuiCollapse-root {
+    position: absolute;
+    left: 30%;
+    
+}
+
+.all-containbag .ptD form .check-formbag input {
+    position: absolute;
+    right: -390px;
+    bottom: 150px;
+    border: 1.5px solid #CACACB;
+    background: transparent;
+    padding: 15px 76px;
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+.all-containbag .ptD form .check-formbag input:hover{
+    border: 1.5px solid black
+}
+.all-containbag .ptD .flex label {
+    display: flex;
+    flex-direction: column;
+}
+.all-containbag .ptD .flex input.field__input{
+    outline: none;
+    padding: 5px ;
+    border-radius: 35px;
+    border: 1px solid;
+}
+.ptG {
+    display: flex;
+    width: 85vh;
+}
+
+.ptG .D {
+    margin-top: 33px;
+    margin-left: 20px;
+}
+
+.ptG .D input#bagrsrv {
+    position: absolute;
+    right: 170px;
+    bottom: 0;
+    border: 2px solid #000000;
+    padding: 15px 70px;
+    border-radius: 35px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ptG .D input#bagrsrv:hover {
+    border: 2px solid #707072;
+    background-color: #707072;
+    color: rgb(255, 255, 255);
+}
+
+.ptG .D .t1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ptG .D .t2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+}
+
+.ptG .D .date {
+    display: flex;
+
+}
+
+.ptG .D .date p {
+    margin-right: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(124, 124, 124);
+}
+
+.ptG .D .checkbag label {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px;
+    transition: 0.1s;
+    background-color: transparent;
+
+}
+
+.ptG .D .checkbag label:hover {
+    padding-right: 50px;
+    padding-left: 50px;
+
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+/* #bagrsrv label{
+    background-color: red;
+}
+#bagrsrv:checked + label > .baginfo{
+    background-color: blue;
+    color: red;
+    width: 20px;
+    display: none;
+} */
+
+
+.all-containbag .baginfo img {
+    width: 20vh;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+/* ------------------------------------------------TEST------------------------------------------------ */
+
+/* ------------------------------------------------TEST------------------------------------------------ */

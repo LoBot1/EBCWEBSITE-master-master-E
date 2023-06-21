@@ -1,0 +1,202 @@
+/* COACH PROFIL & USER PROFIL */
+
+
+.user_profilinfo-contain {
+    background: linear-gradient(to bottom left, #1a1a3a, #000000);
+}
+
+.user-containad {
+    margin-left: 27vh;
+}
+
+
+.user_profilinfo-contain form {
+
+    border-bottom: 1px solid black;
+}
+
+.user_profilinfo-contain form .input-info input {
+    display: flex;
+    border: 1px;
+    background-color: rgba(187, 187, 187, 0.144);
+    border-left: 1px solid black;
+    padding: 5px;
+    outline: none;
+    margin: 1px;
+    color: white;
+}
+
+.user_profilinfo-contain .input-action input {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    transition: 0.3s;
+    color: white;
+    border-radius: 8px;
+}
+
+.user_profilinfo-contain .input-action input:hover {
+    margin-left: 10px;
+    transition: 0.3s;
+    border-radius: 15px;
+
+}
+
+.user_profilinfo-contain .info {
+    display: flex;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.user_profilinfo-contain .info p {
+    min-width: 70px;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    margin-left: 5px;
+    padding: 5px;
+    border-left: 1px solid black;
+    height: 28px;
+}
+
+h1.user-ad {
+    text-align: center;
+    margin-left: 25vh;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    background: #101027;
+}
+
+h1.user-adm {
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+    background: linear-gradient(to bottom left, #5f3b1b, #af5d15);
+}
+
+.info textarea {
+    display: flex;
+    border: 1px;
+    background-color: rgba(187, 187, 187, 0.144);
+    border-left: 1px solid black;
+    padding: 5px;
+    outline: none;
+    margin: 1px;
+    color: white;
+    height: 200px;
+
+    width: 50%;
+}
+
+.user-containad {
+    background: linear-gradient(to bottom left, #1a1a3a, #000000);
+    min-height: 100vh;
+}
+
+
+@media only screen and (max-width: 1155px) {
+    .user-containad {
+        margin-left: 0vh;
+    }
+
+    h1.user-ad {
+        margin: 0;
+        padding-bottom: 5vh;
+    }
+
+    div.user-containad #research {
+        top: 12vh;
+    }
+}
+
+/*-------------------- -------------------- COACH -------------------- --------------------  */
+.btnadmenu{
+    height: 100vh;
+    background: black;
+    top: 0;
+    padding-top: 5vh;
+}
+.ad-coach-contain form {
+    padding-left: 27vh;
+}
+
+.coach-contain {
+    background: linear-gradient(to bottom left, #1a1a3a, #000000);
+    min-height: 100vh;
+}
+
+.ad-coach-contain .input-info {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-coach-contain .info {
+    margin-left: 2vh;
+}
+
+.coach-contain h1 {
+    text-align: center;
+    margin-left: 25vh;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+input#research {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    outline: none;
+    font-weight: 900;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 12px;
+}
+
+input#research::placeholder {
+    color: rgb(25, 24, 63);
+}
+
+svg.search {
+    position: absolute;
+    top: 19px;
+    right: 3vh;
+
+}
+
+.input-action-coach .info2 input {
+    border: 0 !important;
+
+    transition: 0.1s;
+}
+
+.input-action-coach {
+    display: flex;
+    justify-content: end;
+    margin: 5vh;
+}
+
+.input-action-coach .info2 input:hover {
+    background: rgba(255, 255, 255, 0);
+    transition: 0.1s;
+}
+
+@media only screen and (max-width: 1155px) {
+   .form-user form{
+    padding: 0;
+   }
+   .coach-contain h1{
+    margin: 0;
+    padding-bottom: 5vh;
+   }
+   .coach-contain #research{
+    top: 12vh;
+    right: 40px;
+   }
+}

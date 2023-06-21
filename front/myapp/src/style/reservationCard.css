@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.rsrv-content {
+    background-color: white;
+    min-height: 100vh;
+}
+.rsrv-content header{
+    position: relative;
+}
+
+
+.rsrv-content button.nav-btn svg {
+    color: black;
+}
+
+.all-rsrv {
+    display: flex;
+}
+
+.card-all {
+    height: 100%;
+    margin-top: 70px;
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    background-color: white;
+    margin-left: 300px;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+
+.allrsrvlist-contain {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.dateinfo {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+    height: 11%;
+}
+
+.cardinfo1 {
+    height: 14%;
+}
+
+.cardinfo2 {
+    font-size: 12px;
+    display: flex;
+    color: grey;
+}
+
+.cardinfo2 p {
+    padding-right: 10px;
+
+}
+
+.cardinfo3,
+.cardinfo4 {
+    padding-right: 10px;
+    font-weight: 500;
+    color: grey;
+}
+
+.cardinfo6 {
+    font-size: 15px;
+}
+
+.inputCardinfo {
+    display: flex;
+    justify-content: end;
+}
+
+.inputCardinfo input {
+    border: 0;
+    margin: 10px;
+    font-size: 15px;
+    color: green;
+    border-bottom: 1px solid rgba(0, 128, 0, 0);
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+
+.inputCardinfo input:hover {
+    border-bottom: 1px solid green;
+    transition: 0.3s;
+}
+
+
+.allrsrvlist-contain img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.allrsrvlist-contain .card {
+    border: 0;
+    height: 100%;
+}
+
+.search-rsrvlist.PTG {
+    margin-top: 7%;
+    width: 100%;
+    margin-left: 6vh;
+
+    position: fixed;
+}
+
+.Cardinfo.Ecrit {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1266px) {
+    .card-all {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1155px) {
+    .card-all {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .rsrv-content a {
+
+        color: white;
+    }
+
+    .rsrv-content a:hover {
+        border-bottom: 1px solid white;
+    }
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text-container {
+  margin-top: 5vh;
+  height: 15vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+}
+
+.text-container h1 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  font-size: 80px;
+  color: rgba(225, 225, 225, .01);
+  background-image: url("../image/photro\ montage/EBC-BACK.jpeg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animates 8s ease-in-out infinite;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a.test:hover {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+@keyframes animates {
+
+  0%,
+  100% {
+    background-position: left top;
+  }
+
+  25% {
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .text-container h1{
+    font-size: 51px;
+  }
+}

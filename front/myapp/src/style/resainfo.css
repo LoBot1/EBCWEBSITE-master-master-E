@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.allrsrvlist-contain{
+    background-color: white;
+}
+.allrsrvlist-contain header{
+    position: relative;
+}
+  
+
+.allrsrvlist-contain .slide{
+    display: flex;
+    flex-direction: column;
+}
+/* -------------------------------- SLIDE 1 -------------------------------- */
+
+.allrsrvlist-contain .slide1{
+    display: -webkit-inline-box;
+    margin-top: 179px;
+    padding-left: 50vh;
+    padding-right: 50vh;
+    position: relative;
+}
+.allrsrvlist-contain .slide1 .pt{
+    display: flex;
+    margin-left: -10vh;
+}
+.allrsrvlist-contain .slide1 .ptG{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-column-gap: 2vh;
+    grid-row-gap: 02px;
+    width: 70%;
+}
+.allrsrvlist-contain .slide1 .ptG img{
+    height: 330px;
+    width: 330px;
+}
+.allrsrvlist-contain .slide1 .ptD h1, .allrsrvlist-contain .slide1 .ptD h2, .allrsrvlist-contain .slide1 .ptD p{
+    font-family: 'League Spartan', sans-serif;
+
+}
+.allrsrvlist-contain .slide1 .ptD .cardinfo {
+    display: block;
+}
+.allrsrvlist-contain .slide1 .ptD .cardinfo h1{
+    font-size: 30px;
+    padding: 0 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+.allrsrvlist-contain .slide1 .ptD .info2 ,.allrsrvlist-contain .slide1 .ptD .info3{
+    display: flex;
+    justify-content: center;
+    
+}
+.allrsrvlist-contain .slide1 .ptD .info2{
+    display: flex;
+    justify-content: center;
+}
+.allrsrvlist-contain .slide1 .ptD .info2 .cardinfo{
+    padding: 0 2rem;
+    margin-top: 3vh;
+
+}
+.allrsrvlist-contain .slide1 .ptD .info2 div.cardinfo h2.p2{
+    color: rgb(46, 133, 25);
+    border-bottom: 2px solid;
+}
+.allrsrvlist-contain .slide1 .ptD .info3{
+    flex-direction: column;
+    border: 1px solid ;
+    margin: 5vh 6rem;
+    padding: 8px 0px;
+}
+.allrsrvlist-contain .slide1 .ptD .info3 .cardinfoDate{
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.allrsrvlist-contain .slide1 .ptD .info3 .cardinfoDate p{
+    font-size: 15px;
+    border: 1px solid ;
+    /* border-radius: 12px; */
+    border: 0;
+
+}
+.allrsrvlist-contain .slide1 .ptD .checkproduct{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.allrsrvlist-contain .slide1 .ptD .checkproduct input{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-size: 25px;
+    padding: 2px 4rem;
+    border: 1px solid;
+    border-radius:42px;
+    transition: 0.1s;
+    font-weight: 100;
+}
+.allrsrvlist-contain .slide1 .ptD .checkproduct input:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.allrsrvlist-contain .slide1 .ptD .cardinfoDesc{
+    margin-top: 5vh;
+}
+.allrsrvlist-contain .slide1 .ptD .cardinfoDesc p{
+    font-size: 15px;
+}
+/* -------------------------------- SLIDE 1 -------------------------------- */
+
+/* -------------------------------- SLIDE 2 -------------------------------- */
+/* -------------------------------- SLIDE 2 -------------------------------- */
+
+
+
+/* -------------------------------- SLIDE 3 -------------------------------- */
+
+.slide3card{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+}
+
+.slide3card .ptG{
+    background-color:#ffffff;
+    width: 40%;
+    color: #000000;
+    font-family: 'League Spartan', sans-serif;
+    border-right: 2px solid;
+    border-top: 2px solid;
+}
+.slide3card .cardinfo1{
+    font-size: 70px;
+    padding: 0 5rem;
+    width: 140%;
+    position: relative;
+    z-index: 2;
+}
+.slide3card .cardinfo2 h2{
+    color: #000000;
+    display: flex;
+    width: 100%;
+    padding: 0 8rem;
+    font-size: 40px;
+}
+.slide3card .cardinfoDesc{
+    color: black;
+    margin-top: 5vh;
+    font-size: 20px;
+    width: 80%;
+    padding: 0 8rem;
+}
+.slide3card .ptD{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 60%;
+}
+/* -------------------------------- SLIDE 3 -------------------------------- */

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profil-coachinfo-contain {
+    background: linear-gradient(to bottom left, #5f3b1b, #af5d15);
+    min-height: 100vh ;
+}
+
+.profil-coachinfo-contain header {
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+}
+
+.form-contain{
+    background-color: white;
+    box-shadow: 0px 0px 20px 1px #553112;
+    margin: 10vh;
+    border-radius: 12px;
+    
+}
+.coach-info{
+    display: flex;
+    flex-direction: column;
+    padding: 15vh;
+
+}
+.coach-info input{
+    outline: none;
+}
+.c-form-info{
+    margin: 10px;
+}
+.c-form-info p{
+    font-weight: 900;
+}
+.c-form-info input, .c-form-info textarea{
+    width: 100%;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+.coach-check{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+.coach-check input{
+    background-color:#af5d15 ;
+    color: white;
+    font-weight: 800;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5vh;
+    transition: 0.1s;
+}
+.coach-check input:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #af5d15;
+    color: #af5d15;
+    transition: 0.1s;
+}
+
+@media only screen and (max-width: 745px){
+    .coach-info{
+        padding-left: 5vh;
+        padding-right: 5vh;
+        background-color: white;
+        border-radius: 12px;
+    }
+}

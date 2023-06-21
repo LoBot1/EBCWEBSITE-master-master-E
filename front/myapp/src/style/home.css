@@ -1,0 +1,1004 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+/*---------------------------------------------------- EBC ----------------------------------------------------*/
+.-contain header {
+    position: absolute !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.home2{
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+}
+.btn-to-rsrv{
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.btn-to-rsrv a {
+    color: #fff;
+    padding: 10px 20px;    
+    border-radius: 35px;
+    background-color: #000000;
+    margin: 10px;
+    transition: 0.1s;
+    font-size: 16px;
+    line-height: 120px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.btn-to-rsrv a:hover {
+    outline: none;
+    text-decoration: none;
+    background-color: #0000008f;
+    transition: 0.1s;
+
+}
+
+
+
+
+.btn-to-rsrv a svg {
+    margin-left: 0px;
+}
+
+.btn-to-rsrv a:hover svg {
+    color: #af5d15;
+    margin-left: 25px;
+    transition: 1s;
+}
+
+/*---------------------------------------------------- EBC ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 1/6 ----------------------------------------------------*/
+.slide1 {
+    height: 150vh;
+    background-color: #e7e7e7;
+    ;
+    position: relative;
+}
+.slide1 .wave1{
+    width: 50%;
+    height: 40vh;
+    bottom:0 ;
+    background-color: #e7e7e700;
+    position: absolute;
+    z-index: 9;
+}
+.slide1 .bloc1{
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 100%;
+    width: 30%;
+    height: 40vh;
+    background-color:#4D98D6;
+    z-index: 11;
+}
+.slide1 .wave2{
+    width: 50%;
+    height: 40vh;
+    bottom:0 ;
+    right: 0;
+    background-color: #e7e7e700;
+    position: absolute;
+    z-index: 9;
+}
+.slide1 .logo {
+    position: absolute;
+    top: 5vh;
+    right: 5vh;
+}
+
+.slide1 .logo img {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 1px #e7e7e7;
+}
+
+.BGgrp img {
+    width: 100%;
+    height: 130vh;
+}
+
+.BGgrp .img1 {
+    background-image: url(../image/HomeP.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.377);
+    background-position-x: center;
+    /* background-position-y: -50vh; */
+
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    
+}
+
+.vidéoEBC {
+    display: flex;
+    justify-content: center;
+}
+
+.vidéoEBC video {
+    height: 520px;
+    width: 980px;
+    background: white;
+    top: 90vh;
+    position: absolute;
+    box-shadow: -30px 20px 40px 40px rgba(0, 0, 0, 0.589);
+    border-radius: 8px;
+    z-index: 8;
+}
+
+/*---------------------------------------------------- SLIDE 1/6 ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 2/6 ----------------------------------------------------*/
+
+.slide2 {
+    height: 100vh;
+    position: relative;
+}
+
+.slide2 .back {
+    display: flex;
+}
+
+.slide2 .ptG {
+    background-color: #4D98D6;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 8;
+}
+
+.slide2 .ptG .top {
+    height: 40.6%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+span.righph {
+    position: absolute;
+    width: 31%;
+    height: 90px;
+    top: 0;
+    background-color: #e7e7e7;
+    z-index: 1;
+}
+
+.slide2 .ptD {
+    background-color: #e7e7e7;
+    width: 70%;
+}
+
+.slide2 .relative,
+.relative2 {
+    position: absolute;
+    z-index: 8;
+    display: flex;
+    top: 0;
+    width: 100%;
+
+    height: 100%;
+}
+
+/* text slide 2 */
+.slide2 h1,
+.slide3 h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.slide2 .text1,
+.slide3 .text2 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.slide2,
+.slide3 {
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.slide2 p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.slide2 p.\31 {
+    margin-bottom: 15px;
+}
+
+.slide2 h2.\31,
+.blue {
+    color: #4D98D6;
+    margin-bottom: 20px;
+}
+
+.slide2 h2.\32 {
+    margin-bottom: 20px;
+}
+
+.slide2 h3,
+.slide3 h3 {
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    color: black;
+}
+.morinfo{
+    display: flex;
+    justify-content: center;
+}
+.slide2 a,
+.slide3 a{
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: 0.3s;
+}
+.slide2 a:hover,
+.slide3 a:hover{
+   text-decoration: none;
+   border-bottom: 2px solid black;
+    transition: 0.3s;
+}
+/* text slide 2 */
+
+/* image slide 2 */
+.slide2 .photo1,
+.slide3 .photo2 {
+    width: 100%;
+}
+
+.slide2 .G1 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photro\ montage/G1.JPG);
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide2 .G2 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photro\ montage/G2.jpeg);
+    position: absolute;
+    top: 320px;
+    left: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide2 .G3 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photro\ montage/G3.JPG);
+    position: absolute;
+    top: 595px;
+    left: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide2 .CENTER{
+     width: 410px;
+    height: 410px;
+    background-image: url(../image/photro\ montage/CENTER.JPG);
+    position: absolute;
+    top: 265px;
+    left: 390px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position-x: -60px;
+    z-index: 5;
+    background-color: white;
+    transition: 0.3s;
+}
+.slide2 .CENTERBack{
+     width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 245px;
+    left: 370px;
+    border-radius: 100%;
+    background-position-x: -60px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.slide2 .D1{
+    width: 450px;
+    height: 250px;
+    background-image: url(../image/photro\ montage/D1.jpeg);
+    position: absolute;
+    top: 45px;
+    left:500px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.164);
+    background-blend-mode: color;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide2 .D2{
+    width: 550px;
+    height: 285px;
+    background-image: url(../image/photro\ montage/D2.jpeg);
+    position: absolute;
+    top: 315px;
+    left:500px;
+    background-size: cover;
+    background-position-x: 100px ;
+    background-color: rgba(0, 0, 0, 0.288);
+    background-blend-mode: color;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide2 .D3{
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photro\ montage/D3.JPG);
+    position: absolute;
+    top: 615px;
+    left:500px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+/*---------------------------------------------------- SLIDE 2/6 ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 3/6 ----------------------------------------------------*/
+.slide3 {
+    height: 100vh;
+    position: relative;
+}
+
+.slide3 .back {
+    display: flex;
+    background-color: #e7e7e7;
+}
+
+.slide3 .ptD {
+    background-color: #4D98D6;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 75%;
+
+}
+
+.slide3 .ptG {
+
+    background-color: #e7e7e7;
+    width: 70%;
+    border-top-right-radius: 23%;
+
+}
+
+/* texte Slide3 */
+.slide3 p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.slide3 p.\32 {
+    margin-bottom: 20px;
+}
+
+.slide3 h2 {
+    font-size: 23px;
+}
+
+.slide3 h2.\31 {
+    margin-bottom: 20px;
+}
+
+.slide3 h2.\32 {
+    margin-bottom: 5vh;
+}
+
+
+/* texte Slide3 */
+/* image Slide3 */
+.slide3 .G1 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photo\ montage\ 2/D1.JPG);
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide3 .G2 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photo\ montage\ 2/D2.jpeg);
+    position: absolute;
+    top: 320px;
+    right: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide3 .G3 {
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photo\ montage\ 2/D3.jpeg);
+    position: absolute;
+    top: 595px;
+    right: 80px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide3 .CENTER{
+     width: 410px;
+    height: 410px;
+    background-image: url(../image/photo\ montage\ 2/center.JPG);
+    position: absolute;
+    top: 265px;
+    right: 390px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position-x: -100px;
+    z-index: 5;
+    background-color: white;
+    transition: 0.3s;
+}
+.slide3 .CENTERBack{
+     width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 245px;
+    right: 370px;
+    border-radius: 100%;
+    background-position-x: -60px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.slide3 .D1{
+    width: 450px;
+    height: 250px;
+    background-image: url(../image/photo\ montage\ 2/G1.JPG);
+    position: absolute;
+    top: 45px;
+    right:500px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.164);
+    background-blend-mode: color;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide3 .D2{
+    width: 550px;
+    height: 285px;
+    background-image: url(../image/photo\ montage\ 2/G2.jpeg);
+    position: absolute;
+    top: 315px;
+    right:500px;
+    background-size: cover;
+    background-position-x: -100px ;
+    background-color: rgba(0, 0, 0, 0.288);
+    background-blend-mode: color;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+.slide3 .D3{
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/photo\ montage\ 2/G3.JPG);
+    position: absolute;
+    top: 615px;
+    right:500px;
+    background-size: cover;
+    z-index: 3;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+/* image Slide3 */
+
+
+
+/*---------------------------------------------------- SLIDE 3/6 ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 4/6 ----------------------------------------------------*/
+.slide4 {
+    height: 50vh;
+    position: relative;
+}
+
+.slide4 .reseaux {
+    --color-bright: #f8f8f8;
+    --color-orange: #dfdee4;
+    --body-background-color: #4D98D6;
+    position: relative;
+    background: var(--body-background-color);
+}
+
+#intro {
+    color: #f2f1c6;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    z-index: 4;
+}
+
+#intro h1 {
+    font-weight: 900;
+    color: #e7e7e7;
+    letter-spacing: 1px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slide4 .reseaux,
+#contact-info {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-info .links {
+    display: flex;
+    min-width: 1000px;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+
+#contact-info a {
+    text-decoration: none;
+    color: var(--color-bright);
+    font-size: 2rem;
+}
+
+#contact-info .links a {
+    display: block;
+    position: relative;
+}
+
+#contact-info .links a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    transition: all .3s;
+}
+
+#contact-info .links a:hover::after {
+    --transformed-box-diagonal-length: 164%;
+    width: var(--transformed-box-diagonal-length);
+    left: calc((100% - var(--transformed-box-diagonal-length)) / 2);
+}
+
+
+
+#contact-info .links a div {
+    position: relative;
+    display: block;
+    width: 155px;
+    height: 155px;
+    transition: transform .3s;
+}
+
+
+#contact-info .links a:hover div {
+    transform: rotate(-35deg) skew(20deg);
+}
+
+.links a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.links a span:nth-child(5) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+
+}
+
+
+.links a:hover span:nth-child(5) {
+    transform: translate(20px, -20px);
+    
+    border: 1px solid var(--color-bright);
+    opacity: 1;
+
+}
+
+.links a:hover span:nth-child(4) {
+    transform: translate(15px, -15px);
+    
+    border: 1px solid var(--color-bright);
+    opacity: .8;
+
+}
+
+.links a:hover span:nth-child(3) {
+    transform: translate(10px, -10px);
+    
+    border: 1px solid var(--color-bright);
+    opacity: .6;
+}
+
+.links a:hover span:nth-child(2) {
+    transform: translate(5px, -5px);
+    
+    border: 1px solid var(--color-bright);
+    opacity: .4;
+}
+
+.links a:hover span:nth-child(1) {
+    
+    border: 1px solid var(--color-bright);
+    opacity: .2;
+}
+
+.links a.orange-background span {
+    background: var(--color-orange);
+    border-color: var(--color-bright);
+    
+    border: 1px solid var(--color-bright);
+}
+
+.links a.orange-background span:nth-child(5) {
+    background: var(--body-background-color);
+
+}
+
+
+.links a.orange-shadow:hover span {
+    box-shadow: -1px 1px 3px var(--color-orange);
+
+}
+
+.links a.orange-border span {
+    /* border-color: blue; */
+}
+
+.links a.orange-border span:nth-child(5) {
+    border-color: var(--color-bright);
+}
+
+.reseaux .wave {
+    background-color: #e7e7e7;
+    width: 32%;
+    height: 250px;
+    left: 30%;
+    top: -250px;
+    position: absolute;
+    border-bottom-left-radius: 100%;
+    z-index: 2;
+}
+
+.reseaux .bloc {
+    background-color: #4D98D6;
+    width: 32%;
+    height: 250px;
+    position: absolute;
+    left: 30%;
+    top: -250px;
+    z-index: 1;
+}
+
+.reseaux .wave2 {
+    background-color: #4D98D6;
+    width: 40%;
+    height: 350px;
+    right: 0%;
+    top: 0px;
+    position: absolute;
+    z-index: 2;
+    border-top-right-radius: 100%;
+}
+
+.reseaux .bloc2 {
+    background-color: #e7e7e7;
+    width: 40%;
+    height: 350px;
+    right: 0%;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.reseaux .wave3 {
+    background-color: #4D98D6;
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 100%;
+    z-index: 2;
+}
+
+.reseaux .bloc3 {
+    background-color: #e7e7e7;
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.reseaux .wave3 {
+    background-color: #4D98D6;
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 100%;
+    z-index: 2;
+}
+
+.reseaux .bloc4 {
+    background-color: #4D98D6;
+    width: 30%;
+    height: 250px;
+    position: absolute;
+    bottom: -250px;
+    left: 40%;
+    z-index: 1;
+}
+
+.reseaux .wave4 {
+    background-color: #e7e7e7;
+    width: 30%;
+    height: 250px;
+    position: absolute;
+    bottom: -250px;
+    left: 40%;
+    border-top-right-radius: 100%;
+    z-index: 2;
+}
+
+/*---------------------------------------------------- SLIDE 4/6 ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 5/6 ----------------------------------------------------*/
+.slide5 {
+    height: 100vh;
+    background-color: #e7e7e7;
+    position: relative;
+
+}
+
+.slide5 .pt {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+}
+
+.slide5 p {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(109, 109, 109);
+    margin: 5vh;
+    margin-top: 0vh;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slide5 .photo {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slide5 h3 {
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slide5 .card1 {
+    position: relative;
+}
+
+.photo img {
+    width: 140px;
+    height: 170px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.slide5 .pt1 {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide5 .cardinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide5 .pt1 .pt1G,
+.pt1D,
+.pt2 .card1 {
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+
+    background-position-x: 160px;
+    border-radius: 5px;
+    box-shadow: -10px 10px 20px 1px rgba(97, 97, 97, 0.322);
+    height: 100%;
+    transition: 0.3s;
+
+}
+
+.slide5 .fonction {
+    color: grey;
+    font-size: 12px;
+}
+
+.slide5 .card1:hover {
+    transition: 1s;
+}
+
+.slide5 .pt2 {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide5 .pt2 .card1:hover,
+.pt1G:hover,
+.pt1D:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+
+
+.slide5 .note {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+/*---------------------------------------------------- SLIDE 5/6 ----------------------------------------------------*/
+/*---------------------------------------------------- SLIDE 6/6 ----------------------------------------------------*/
+.slide6 {
+    height: 30vh;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide6 h2 {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.slide6 .title6 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.slide6 .partenaire {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide6 img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+}
+
+/*---------------------------------------------------- SLIDE 6/6 ----------------------------------------------------*/
+
+
+@media only screen and (max-width: 1266px) {
+
+    .btn-to-rsrv {
+        left: 43%;
+    }
+}
+
+@media only screen and (max-width: 1209px) {
+
+    .btn-to-rsrv {
+        top: 85%;
+    }
+}
+
+@media only screen and (max-width: 982px) {
+
+    .btn-to-rsrv {
+        left: 40%;
+        top: 85%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .btn-to-rsrv {
+        left: 35%;
+        top: 65%;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+
+    .btn-to-rsrv {
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+
+    .btn-to-rsrv {
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .btn-to-rsrv {
+        left: 23%;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+
+    .btn-to-rsrv {
+        left: 15%;
+    }
+}

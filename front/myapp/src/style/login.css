@@ -1,0 +1,111 @@
+.login-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1012%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M411.948%2c552.029C432.455%2c551.099%2c451.375%2c542.472%2c462.91%2c525.492C476.271%2c505.825%2c485.105%2c481.235%2c474.496%2c459.957C462.937%2c436.775%2c437.818%2c421.962%2c411.948%2c423.285C387.873%2c424.517%2c371.3%2c444.769%2c359.581%2c465.835C348.278%2c486.153%2c340.225%2c510.637%2c352.298%2c530.508C364.061%2c549.87%2c389.316%2c553.055%2c411.948%2c552.029' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1159.305%2c497.967C1178.918%2c497.132%2c1195.339%2c485.361%2c1205.867%2c468.792C1217.391%2c450.655%2c1226.549%2c427.895%2c1215.558%2c409.431C1204.716%2c391.217%2c1180.469%2c389.383%2c1159.305%2c390.57C1140.602%2c391.619%2c1123.266%2c399.506%2c1113.01%2c415.181C1101.587%2c432.641%2c1095.142%2c454.863%2c1105.326%2c473.074C1115.691%2c491.61%2c1138.087%2c498.871%2c1159.305%2c497.967' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M661.101%2c260.783C698.129%2c263.561%2c739.888%2c259.839%2c759.918%2c228.573C781.067%2c195.56%2c773.363%2c151.905%2c751.85%2c119.127C732.32%2c89.371%2c696.681%2c78.984%2c661.101%2c78.016C623.246%2c76.987%2c579.723%2c80.817%2c561.381%2c113.947C543.347%2c146.521%2c564.095%2c184.649%2c585.013%2c215.45C602.79%2c241.626%2c629.548%2c258.416%2c661.101%2c260.783' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1427.403%2c472.03C1460.076%2c470.527%2c1487.537%2c449.484%2c1503.291%2c420.82C1518.432%2c393.273%2c1517.974%2c360.947%2c1503.906%2c332.837C1487.994%2c301.042%2c1462.877%2c271.585%2c1427.403%2c269.184C1388.243%2c266.534%2c1349.739%2c286.849%2c1330.584%2c321.108C1311.827%2c354.654%2c1317.624%2c396.055%2c1338.377%2c428.405C1357.502%2c458.217%2c1392.021%2c473.657%2c1427.403%2c472.03' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1372.82%2c425.291C1415.873%2c425.273%2c1452.765%2c396.793%2c1473.495%2c359.059C1493.432%2c322.77%2c1495.345%2c277.945%2c1472.876%2c243.167C1451.99%2c210.838%2c1411.309%2c203.268%2c1372.82%2c203.226C1334.233%2c203.184%2c1293.334%2c210.543%2c1272.381%2c242.946C1249.839%2c277.806%2c1251.967%2c322.782%2c1271.996%2c359.145C1292.781%2c396.88%2c1329.739%2c425.309%2c1372.82%2c425.291' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M218.998%2c540.935C253.034%2c540.405%2c287.778%2c530.211%2c305.603%2c501.211C324.192%2c470.968%2c322.704%2c432.321%2c304.485%2c401.854C286.731%2c372.165%2c253.576%2c355.372%2c218.998%2c356.386C186.098%2c357.351%2c159.104%2c378.642%2c141.774%2c406.624C123.267%2c436.507%2c110.071%2c473.511%2c127.592%2c503.983C145.149%2c534.519%2c183.778%2c541.483%2c218.998%2c540.935' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1473.218%2c333.831C1516.861%2c331.737%2c1552.901%2c303.647%2c1574.923%2c265.91C1597.153%2c227.817%2c1606.521%2c181.155%2c1584.671%2c142.843C1562.653%2c104.235%2c1517.636%2c89.131%2c1473.218%2c87.579C1425.268%2c85.903%2c1373.146%2c94.062%2c1347.405%2c134.552C1320.166%2c177.399%2c1325.976%2c233.62%2c1353.081%2c276.552C1378.466%2c316.759%2c1425.723%2c336.109%2c1473.218%2c333.831' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1110.743%2c142.892C1124.656%2c142.885%2c1137.481%2c135.118%2c1144.176%2c122.922C1150.635%2c111.155%2c1148.797%2c97.146%2c1142.306%2c85.397C1135.56%2c73.187%2c1124.686%2c62.848%2c1110.743%2c62.408C1096.125%2c61.947%2c1082.612%2c70.493%2c1075.533%2c83.291C1068.668%2c95.703%2c1070.038%2c110.743%2c1077.253%2c122.955C1084.335%2c134.943%2c1096.819%2c142.899%2c1110.743%2c142.892' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M797.294%2c27.927C814.488%2c28.27%2c833.564%2c25.964%2c842.444%2c11.237C851.525%2c-3.822%2c845.456%2c-22.332%2c836.846%2c-37.665C828.001%2c-53.418%2c815.355%2c-68.758%2c797.294%2c-69.172C778.697%2c-69.598%2c763.253%2c-55.952%2c754.47%2c-39.554C746.195%2c-24.104%2c745.769%2c-5.302%2c755.16%2c9.496C763.963%2c23.368%2c780.867%2c27.599%2c797.294%2c27.927' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1379.253%2c576.72C1418.729%2c577.799%2c1459.363%2c565.434%2c1480.326%2c531.966C1502.47%2c496.613%2c1503.531%2c449.932%2c1480.424%2c415.201C1459.229%2c383.344%2c1417.514%2c380.552%2c1379.253%2c380.049C1339.691%2c379.529%2c1294.38%2c378.955%2c1273.364%2c412.477C1251.528%2c447.306%2c1265.044%2c492.14%2c1287.319%2c526.69C1307.581%2c558.118%2c1341.874%2c575.698%2c1379.253%2c576.72' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M641.571%2c705.413C697.442%2c706.029%2c753.874%2c686.071%2c782.824%2c638.282C812.728%2c588.918%2c808.842%2c526.799%2c780.085%2c476.758C751.223%2c426.534%2c699.486%2c393.584%2c641.571%2c392.481C581.687%2c391.34%2c522.875%2c419.044%2c493.606%2c471.301C464.911%2c522.533%2c474.239%2c585.587%2c505.612%2c635.225C534.817%2c681.433%2c586.91%2c704.81%2c641.571%2c705.413' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M818.298%2c226.142C834.648%2c227.026%2c851.168%2c219.6%2c859.105%2c205.278C866.845%2c191.31%2c863.092%2c174.278%2c854.497%2c160.819C846.596%2c148.446%2c832.977%2c141.503%2c818.298%2c141.375C803.373%2c141.245%2c788.33%2c147.182%2c780.989%2c160.178C773.748%2c172.998%2c777.234%2c188.425%2c784.483%2c201.241C791.869%2c214.3%2c803.317%2c225.332%2c818.298%2c226.142' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1012'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+
+.login-page .box {
+    position: relative;
+    width: 480px;
+    height: 580px;
+    background-color: #ffffff00;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 480px;
+    height: 580px;
+    background: linear-gradient(0deg, transparent, #ffffff, #ffffff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 480px;
+    height: 580px;
+    background: linear-gradient(0deg, transparent, #ffffff, #ffffff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login-page form {
+    position: absolute;
+    inset: 3px;
+    background-color: #22202e;
+    z-index: 10;
+    border-radius: 8px;
+    display: flex;
+    place-content: center;
+}
+
+.login-input {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.login-input h1 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+}
+
+.login-input .input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.input input {
+    border: 0;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 15px;
+    transition: 0.35s;
+    outline: none;
+
+}
+
+
+
+.input input:hover {
+    background-color: white !important;
+    color: black;
+    transition: 0.35s;
+}

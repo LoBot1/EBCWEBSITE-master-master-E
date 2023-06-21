@@ -1,0 +1,40 @@
+header{
+    background: none;
+}
+.all-rsrv-list{
+    margin-left: 27vh;
+    
+}
+
+
+div.list {
+    margin-top: 5vh;
+    margin-left: 15vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 2px;
+}
+
+
+
+.ad-user-resalist-contain div.info-resa {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: linear-gradient(to bottom left, #5f3b1b, #af5d15);
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    border: 1px solid white;
+}
+
+.ad-user-resalist-contain div.info-resa p {
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,230 @@
+.profil_user_contain {
+    background: linear-gradient(to bottom left, #e2e2e2, #174c9b);
+    min-height: 100vh;
+
+}
+
+.profil_user_contain header {
+    position: absolute;
+    top:
+        0;
+}
+
+.profil-value {
+    display: flex;
+    /* min-height: 100vh; */
+    justify-content: space-around;
+    border-radius: 15px;
+    background: white;
+    min-height: 86vh;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+
+
+    box-shadow: 0px 0px 20px 1px #123c55;
+}
+
+.title-profil {
+    align-self: center;
+    /* min-width:35vh; */
+    width: 329px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+
+.title-profil1 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-profil2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-profil2 h2 {
+    font-weight: 100;
+}
+
+
+
+.profil-value input {
+
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid rgba(85, 85, 85, 0.582);
+    padding: 5px;
+    background: none;
+}
+
+.profil-value input::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+
+}
+
+.profil-value-1 {
+    border-left: 1px solid rgba(90, 90, 90, 0.164);
+    width: 329px;
+    padding-top: 5vh;
+    padding-left: 3vh;
+    padding-right: 5vh;
+}
+
+.profil-value-1 h1{
+    font-weight: 900;
+    padding-left: 50px;
+}
+
+
+.profil-value-1 .info1 {
+    border-radius: 8px;
+    padding-top: 2vh;
+}
+
+.profil-value-1 .info1 input {
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    color: rgb(0, 0, 0);
+}
+
+.profil-value-1 .info1 input::placeholder {
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(128, 128, 128, 0.466);
+}
+.check-userinfo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15vh;
+}
+.check-userinfo input {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid;
+    border-radius: 40px;
+    transition: 0.1s;
+    font-size: 20px;
+    padding: 1rem 4rem;
+    font-weight: 400;
+}
+.check-userinfo input:hover{
+    background-color: rgb(99, 99, 99);
+    transition: 0.1s;
+}
+
+
+
+.profil-value-2 {
+    border-left: 1px solid rgba(146, 146, 146, 0.219);
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    padding-top: 29vh ;
+    padding-left: 3vh;
+    padding-right: 5vh;
+    margin-right: 8vh;
+}
+
+.profil-value-2 .info1 {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.profil-value-2 .info1 input {
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    color: rgb(0, 0, 0);
+}
+.profil-value-2 .info1 input::placeholder{
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(128, 128, 128, 0.466);
+}
+
+.profil-value p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.profil-info1 {
+    padding-top: 20vh;
+}
+@media only screen and (max-width: 1760px){
+    .profil-value{
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 1308px){
+    .profil-value{
+        left: 5%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .profil-value{
+        left: 0%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .profil-value{
+        left: 30%;
+        flex-direction: column;
+    }
+    
+    div.check-userinfo{
+        padding: 0;
+    }
+    div.check-userinfo input.check{
+        position: absolute;
+        bottom: 2vh;
+        right: 10px;
+        padding: 10px;
+    }
+    .profil_user_contain{
+        min-height: 160vh;
+    }
+    .profil-value-1{
+        padding-bottom: 5vh;
+        border-top: 1px solid rgba(128, 128, 128, 0.418);
+        width: 100%;
+    }
+    .profil-value-1 h1{
+        padding-left: 80px;
+    }
+    .profil-value-2{
+        padding-bottom: 10vh;
+        padding-top: 30%;
+        border-top: 1px solid rgba(128, 128, 128, 0.418);
+        margin: 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .profil-value{
+        left: 20%;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 675px){
+    .profil-value{
+        left: 10%;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px){
+    .profil-value{
+        left: 5%;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 415px){
+    .profil-value{
+        left: 2%;
+        flex-direction: column;
+    }
+}

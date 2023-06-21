@@ -1,0 +1,108 @@
+.login-page {
+    min-height: 100vh;
+    background-color: white;
+
+}
+
+.login-page .logo img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: -35px;
+}
+
+.login-page .login-contain {
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+
+    width: 460px;
+    margin: 0px 36px;
+}
+
+.login-contain h1 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.login-page .login-contain .input .checker input{
+    width: 100%;
+    border: 1px solid rgb(112, 108, 108);
+    margin: 50px 0px;
+    padding-top: 16px;
+    padding-inline-end: 16px;
+    padding-bottom: 16px;
+    padding-inline-start: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    background-color: transparent;
+    height: 56px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.login-page .login-contain .input input#email::placeholder {
+    color: rgb(112, 108, 108);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.login-page .login-contain .input .valid {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.login-page .login-contain .input p.email{
+    margin-top: 20px;
+    color: black;
+}
+.login-page .login-contain .input input {
+    border: 0;
+    outline: none;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+
+}
+
+.login-page .login-contain .input input#valid:hover {
+    background-color: rgb(94, 94, 94);
+    transition: 0.1s;
+}
+
+.login-page .login-contain .input p {
+    color: rgb(117, 117, 117);
+    text-align: start;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input1 input{
+     border: 1px solid grey;
+    outline: none;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.1s;
+    width: 100%;
+}
+.input1 .PN{
+    display: flex;
+}
+.input1 .PN input#first_name{
+    margin-right: 15px;
+}

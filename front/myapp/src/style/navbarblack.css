@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #10234d00;
+    --mainColorLight: rgb(80, 80, 168);
+    --secondaryColor: red;
+    --textColor: rgb(163, 163, 163);
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    padding-top: 20px;
+    background-color: rgb(25, 25, 50);
+    position: fixed;
+}
+
+header div nav {
+    border-bottom: 20px;
+}
+
+a.nav {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 2rem;
+    padding: 10px;
+    transition: 1s;
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(34, 34, 34)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 0.35s;
+    --bg-h: 100%;
+    padding-bottom: 2px;
+    --bg-h: 2px;
+    padding-top: 0px;
+}
+a.admin.nav{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    top: 2rem;
+}
+a.coach.nav{
+    position: absolute;
+    bottom: 15px;
+    left: 85px;
+}
+html body div#root header div nav a {
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    letter-spacing: 0.8px;
+    font-size: 15px;
+
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a.nav:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+    position: relative;
+    z-index: 10;
+}
+
+header .nav-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    position: absolute;
+    right: 2rem;
+}
+
+
+html body div#root header div nav ul li {
+    list-style: none;
+}
+
+html body div#root header div nav ul {
+    display: flex;
+    align-items: center;
+}
+
+html body div#root header nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+html body div#root header div nav.responsive_nav {
+    position: fixed;
+    z-index: 11;
+    /* background-color: rgb(21, 59, 21); */
+    /* background-color: rgb(21, 49, 21); */
+    /* background-color: rgb(27, 39, 27); */
+    /* background-color: #232d23; */
+    
+    background: linear-gradient(to bottom left, #ffffff, #333333);
+    box-shadow: 2px 2px 38px rgb(63 91 63 / 42%);
+
+}
+
+html body div#root header nav button.nav-btn.nav-close-btn {
+    position: absolute;
+
+}
+
+.Navbar button.nav-btn svg {
+    color:black;
+}
+
+html body div#root header nav button.nav-btn.nav-close-btn svg {
+    color: black;
+}
+.bag-nav{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    min-width: 50px;
+    
+}
+.bag-nav ul{
+    min-width: 100px;
+}
+.loginsign{
+    display: flex;
+}
+.loginsign ul{
+    
+    max-width: 70px;
+}
+@media only screen and (max-width: 1155px) {
+ 
+    .bag-nav{
+        left: 200px;
+        width: 34%;
+    }
+    header{
+        position: relative!important;
+    }
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: rgb(0, 0, 0);
+        transition: 1s;
+        transform: translateY(-100vh);
+        background-blend-mode: color;
+    }
+
+    header nav.responsive_nav {
+        transform: none;
+        z-index: 999;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+   
+}

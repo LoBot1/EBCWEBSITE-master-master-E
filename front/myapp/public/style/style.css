@@ -1,0 +1,7 @@
+.fade {
+    position: absolute;
+    z-index: 99;
+    opacity: 1 !important;
+    top: 50px;
+    right: 50px;
+}
